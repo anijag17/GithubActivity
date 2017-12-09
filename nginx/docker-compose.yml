@@ -1,12 +1,12 @@
 version: '2'
 services:
   activity:
-    image: activity
+    image: ani
 
   ng:
     ports:
      - "8888:8888"
-    image: nginx
+    image: ng2
     links:
      - activity
 

@@ -8,7 +8,4 @@ services:
   proxy:
     ports:
      - "8888:8888"
-    image: ng
-
-
-   
+    image: hw4_ng
